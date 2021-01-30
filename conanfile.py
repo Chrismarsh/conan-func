@@ -3,17 +3,11 @@ from conans import ConanFile, CMake, tools
 
 class CgalConan(ConanFile):
     name = "func"
-    version = "0.1"
     license = "GPL/LGPL"
     url = "https://github.com/uofs-simlab/func"
-    description = "(Function Comparator) is a C++ tool for quickly profiling the performance of various different abstracted implementations of mathematical function evaluations for given:"
+    description = "(Function Comparator) is a C++ tool for quickly profiling the performance of various different abstracted implementations of mathematical function evaluations"
     no_copy_source = True
     settings = "os", "compiler", "build_type", "arch"
-    # options = {
-
-    #             }                
-    # default_options = 
-
 
     generators = "cmake_find_package"
 
